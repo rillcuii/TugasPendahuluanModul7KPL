@@ -1,0 +1,12 @@
+{
+    "courses": [
+        {
+            "code": "KPL",
+            "name": "Konstruksi Perangkat Lunak"
+        },
+        {
+            "code": "PBO",
+            "name": "Pemrograman Berorientasi Objek"
+        }
+    ]
+}
