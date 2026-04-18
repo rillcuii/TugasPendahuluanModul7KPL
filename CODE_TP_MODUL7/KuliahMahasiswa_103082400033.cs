@@ -13,17 +13,17 @@ namespace CODE_TP_MODUL7
     }
     public class KuliahMahasiswa_103082400033
     {
-        public List<MataKuliah> Matkul { get; set; }
+        public List<MataKuliah> MataKuliah { get; set; }
 
         public void ReadJSON()
         {
-            string jsonString = File.ReadAllText("tp7_2_103082400033");
+            string jsonString = File.ReadAllText("tp7_2_103082400033.json");
             KuliahMahasiswa_103082400033 kuliah = JsonSerializer.Deserialize<KuliahMahasiswa_103082400033>(jsonString);
 
             Console.WriteLine("Daftar mata kuliah yang diambil:");
-            for (int i = 0; i < kuliah.Matkul.Count; i++)
+            for (int i = 0; i < kuliah.MataKuliah.Count; i++)
             {
-                Console.WriteLine($"MK {i + 1} {kuliah.Matkul[i].kode} - {kuliah.Matkul[i].nama}");
+                Console.WriteLine($"MK {i + 1} {kuliah.MataKuliah[i].kode} - {kuliah.MataKuliah[i].nama}");
             }
         }
     }

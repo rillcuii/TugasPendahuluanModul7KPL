@@ -14,7 +14,7 @@ namespace CODE_TP_MODUL7
         public void ReadJSON()
         {
 
-            string jsonString = File.ReadAllText("tp7_1_103082400033");
+            string jsonString = File.ReadAllText("tp7_1_103082400033.json");
             DataMahasiswa_103082400033 mahasiswa = JsonSerializer.Deserialize<DataMahasiswa_103082400033>(jsonString);
 
             Console.WriteLine($"Nama {mahasiswa.nama} dengan nim {mahasiswa.nim} dari fakultas {mahasiswa.fakultas}");
