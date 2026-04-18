@@ -1,0 +1,24 @@
+{
+    "MataKuliah": [
+        {
+            "kode": "KPL",
+            "nama": "Konstruksi Perangkat Lunak"
+        },
+        {
+            "kode": "PBO",
+            "nama": "Pemrograman Berorientasi Objek"
+        },
+        {
+            "kode": "Jarkom",
+            "nama": "Jaringan Komputer"
+        },
+        {
+            "kode": "AI",
+            "nama": "Artificial Intelegent"
+        },
+        {
+            "kode": "IMK",
+            "nama": "Interakdi Manusia Komputer"
+        }
+    ]
+}
