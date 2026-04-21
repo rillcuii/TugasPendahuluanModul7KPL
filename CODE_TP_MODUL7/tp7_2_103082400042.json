@@ -1,0 +1,16 @@
+{
+  "mata_kuliah": [
+    {
+      "kode": "SE3023",
+      "nama": "Konstruksi Perangkat Lunak"
+    },
+    {
+      "kode": "SE3013",
+      "nama": "Pemrograman Berbasis Objek"
+    },
+    {
+      "kode": "SE3033",
+      "nama": "Basis Data"
+    }
+  ]
+}

@@ -5,8 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Instansiasi class dan panggil method ReadJSON [cite: 191-192]
         DataMahasiswa103082400042 dataMhs = new DataMahasiswa103082400042();
         dataMhs.ReadJSON();
+
+        KuliahMahasiswa103082400042 kuliah = new KuliahMahasiswa103082400042();
+        kuliah.ReadJSON();
     }
 }
